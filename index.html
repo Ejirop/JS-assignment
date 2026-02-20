@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TensorFlow.js API Visualization</title>
+
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+
+    <!-- TensorFlow Visor -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@latest"></script>
+</head>
+
+<body>
+    <h1>TensorFlow.js Visualization App</h1>
+
+    <hr>
+
+    <h2>Multiplier Function</h2>
+    <p>Enter numbers separated by commas:</p>
+    <input type="text" id="numbersInput" placeholder="e.g 2,3,4,5" />
+    <button onclick="handleMultiply()">Multiply</button>
+
+    <p id="multiplyResult"></p>
+
+    <hr>
+
+    <h2>API Data Visualization</h2>
+    <button onclick="loadAndVisualize()">Fetch & Plot Latitude Line Chart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
